@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acute Kidney Injury (AKI) Clinical Overview</title>
+    <style>
+        :root {
+            --primary-color: #1e3a8a;
+            --secondary-color: #3b82f6;
+            --text-dark: #1f2937;
+            --bg-light: #f9fafb;
+            --border-color: #e5e7eb;
+            --accent-red: #dc2626;
+            --accent-orange: #ea580c;
+            --accent-green: #16a34a;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            margin-top: 30px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 5px;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        /* Grid Layout for Etiologies */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+
+        .card {
+            background: var(--bg-light);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 20px;
+            border-top: 4px solid var(--secondary-color);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card.prerenal { border-top-color: var(--accent-orange); }
+        .card.intrarenal { border-top-color: var(--accent-red); }
+        .card.postrenal { border-top-color: var(--primary-color); }
+
+        /* Table Styling */
+        .table-responsive {
+            overflow-x: auto;
+            margin: 30px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+            background-color: transparent;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--primary-color);
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: var(--bg-light);
+        }
+
+        /* Callout Box */
+        .callout {
+            background-color: #eff6ff;
+            border-left: 5px solid var(--secondary-color);
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .callout-title {
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        /* Lists */
+        ul, ol {
+            margin-bottom: 1.5rem;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Acute Kidney Injury (AKI)</h1>
+    <p><strong>Acute Kidney Injury (AKI)</strong>, previously termed acute renal failure, is characterized by a rapid, sudden decline in renal filtration function occurring over hours to days. This abrupt deterioration leads to the systemic retention of nitrogenous waste products (such as blood urea nitrogen and creatinine) and severely disrupts fluid, electrolyte, and acid-base homeostasis.</p>
+
+    <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 30px 0;">
+
+    <h2>1. Etiological Classifications</h2>
+    <p>To determine the root cause of an acute decline in GFR, clinical pathology is divided into three distinct anatomical categories based on where the functional disruption occurs:</p>
+    
+    <div class="grid-container">
+        <div class="card prerenal">
+            <h3>Prerenal AKI (Hypoperfusion)</h3>
+            <p>Driven by decreased systemic blood flow to the kidneys without initial structural damage to the parenchyma.</p>
+            <ul>
+                <li><strong>Triggers:</strong> Severe dehydration, hypovolemic shock, hemorrhage, sepsis, or cardiogenic shock.</li>
+                <li><strong>Response:</strong> Activation of RAAS and ADH to conserve sodium and water, resulting in highly concentrated urine.</li>
+            </ul>
+        </div>
+        
+        <div class="card intrarenal">
+            <h3>Intrarenal AKI (Intrinsic Damage)</h3>
+            <p>Caused by direct structural injury to the kidney tissue itself, including the glomeruli, tubules, or interstitium.</p>
+            <ul>
+                <li><strong>Acute Tubular Necrosis (ATN):</strong> Ischemic or nephrotoxic insult (e.g., aminoglycosides, NSAIDs, contrast media).</li>
+                <li><strong>Acute Interstitial Nephritis (AIN):</strong> Allergic/inflammatory drug responses.</li>
+            </ul>
+        </div>
+        
+        <div class="card postrenal">
+            <h3>Postrenal AKI (Obstruction)</h3>
+            <p>Arises from mechanical obstruction of urine outflow anywhere from the collecting ducts down to the urethra.</p>
+            <ul>
+                <li><strong>Triggers:</strong> Benign Prostatic Hyperplasia (BPH), bilateral nephrolithiasis (kidney stones), or pelvic tumors.</li>
+                <li><strong>Mechanism:</strong> Elevated retrograde hydrostatic pressure halts glomerular filtration.</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>2. Clinical Progression Phases</h2>
+    <p>When experiencing ischemic or nephrotoxic intrinsic injury, patients typically progress through four distinct clinical phases:</p>
+
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Phase</th>
+                    <th>Pathophysiological Characteristics</th>
+                    <th>Key Clinical Risks & Nursing Focus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="highlight">1. Onset / Initiation</td>
+                    <td>Begins at the exact moment of physiological insult; lasts hours to days as cellular injury evolves.</td>
+                    <td>Often asymptomatic. Initial tracking of declining urine output and subtle laboratory elevations.</td>
+                </tr>
+                <tr>
+                    <td class="highlight">2. Oliguric</td>
+                    <td>Urine output drops significantly below 400 mL/24 hours due to severely reduced GFR.</td>
+                    <td>Fluid volume overload (pulmonary edema), lethal hyperkalemia, metabolic acidosis, and uremic symptoms.</td>
+                </tr>
+                <tr>
+                    <td class="highlight">3. Diuretic</td>
+                    <td>Glomerular filtration begins to recover, but damaged renal tubules lack the capacity to concentrate urine.</td>
+                    <td>Profound daily urine volumes (several liters). High risk for severe dehydration, hypovolemia, and hypokalemia.</td>
+                </tr>
+                <tr>
+                    <td class="highlight">4. Recovery</td>
+                    <td>Gradual stabilization and normalization of GFR and tubular function; can take 3 to 12 months.</td>
+                    <td>Long-term monitoring of renal function labs and prevention of secondary nephrotoxic insults.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>3. Core Management Strategies</h2>
+    <p>Therapy focuses on resolving the primary trigger, maintaining structural perfusion, and preventing systemic metabolic crises:</p>
+    <ul>
+        <li><span class="highlight">Fluid Optimization:</span> Rapid fluid resuscitation is critical for prerenal hypoperfusion. Conversely, strict fluid restriction and loop diuretics are required during the oliguric phase to mitigate systemic fluid overload.</li>
+        <li><span class="highlight">Electrolyte Stabilization:</span> Rigorous management of hyperkalemia utilizing calcium gluconate (cardioprotection), insulin paired with dextrose (cellular shifting), or gastrointestinal potassium binders.</li>
+        <li><span class="highlight">Nephrotoxic Mitigation:</span> Promptly discontinuing all suspected offending agents (e.g., NSAIDs, ACE inhibitors) and adjusting all maintenance drug dosages to match calculated clearance rates.</li>
+    </ul>
+
+    <div class="callout">
+        <div class="callout-title">Clinical Recall: Emergency Dialysis Indications ("AEIOU")</div>
+        <p>Urgent Renal Replacement Therapy (RRT) is indicated if a patient develops any of the following refractory conditions:</p>
+        <ol>
+            <li><strong>A</strong>cidosis — Severe metabolic acidosis (pH &lt; 7.1) non-responsive to medical therapy.</li>
+            <li><strong>E</strong>lectrolytes — Refractory hyperkalemia with associated ECG anomalies.</li>
+            <li><strong>I</strong>ntoxication — Poisoning or overdose from dialyzable toxins (e.g., lithium, toxic alcohols).</li>
+            <li><strong>O</strong>verload — Decompensated fluid overload causing severe pulmonary congestion.</li>
+            <li><strong>U</strong>remia — Advanced uremic complications, including pericarditis or encephalopathy.</li>
+        </ol>
+    </div>
+</div>
+
+</body>
+</html>
