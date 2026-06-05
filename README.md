@@ -1,0 +1,140 @@
+OCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <title>ጃንዲስ በእርግዝና ወቅት</title>
+    <style>
+        body { font-family: 'Nyala', 'Ethiopic', sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 20px auto; padding: 0 20px; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 10px; }
+        h2 { color: #e67e22; margin-top: 30px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid #bdc3c7; padding: 12px; text-align: right; }
+        th { background-color: #f8f9f9; }
+        .warning { background-color: #fdf2f2; border-left: 5px solid #e74c3c; padding: 15px; margin: 20px 0; }
+        ul { margin-right: 20px; }
+    </style>
+</head>
+<body>
+
+    <h1>በእርግዝና ወቅት የሚከሰት የጃንዲስ (የዓይን ቢጫ መሆን) በሽታ</h1>
+    <p>በእርግዝና ወቅት የሚከሰት የጃንዲስ በሽታ አፋጣኝ የሕክምና ምርመራ የሚፈልግ ከባድ የጤና ችግር ነው። ይህ ችግር በእርግዝና ወቅት ብቻ የሚከሰቱ እና ከእርግዝና ጋር ተያይዘው የሚመጡ ተብሎ በሁለት ይከፈላል።</p>
+
+    <h2>1. የምክንያቶች ክፍፍል</h2>
+    <table>
+        <tr>
+            <th>ዓይነት</th>
+            <th>የሚያስከትሉ ችግሮች</th>
+        </tr>
+        <tr>
+            <td>በእርግዝና ብቻ የሚከሰቱ</td>
+            <td>የጉበት መሽመድመድ (ICP)፣ ድንገተኛ የእርግዝና ጉበት ስብ (AFLP)፣ የሄልፕ ሲንድሮም (HELLP Syndrome)፣ የደም ግፊት መጨመር (Pre-eclampsia)።</td>
+        </tr>
+        <tr>
+            <td>ከእርግዝና ጋር ተያይዘው የሚመጡ</td>
+            <td>የጉበት ኢንፌክሽን (Viral Hepatitis)፣ የሐሞት ጠጠር (Gallstones)፣ ለአንዳንድ መድኃኒቶች የሚኖር ምላሽ።</td>
+        </tr>
+    </table>
+
+    <h2>2. በእርግዝና ወቅት የሚከሰቱ ዋና ዋና የጉበት ችግሮች</h2>
+    <ul>
+        <li><strong>Intrahepatic Cholestasis of Pregnancy (ICP):</strong> የቆዳ ማሳከክ (በተለይ በእጅ እና በእግር መዳፍ) ይታያል። የጉበት ኢንዛይሞችን የሚያረጋጋ መድኃኒት (UDCA) ይሰጣል።</li>
+        <li><strong>Acute Fatty Liver of Pregnancy (AFLP):</strong> በእርግዝና የመጨረሻ ወራት የሚከሰት አደገኛ ሁኔታ ነው። ማቅለሽለሽ፣ ማስታወክ እና የሆድ ህመም ይታያል። ህፃኑን በጊዜ መውለድ (Delivery) ብቸኛው መፍትሄ ነው።</li>
+        <li><strong>HELLP Syndrome:</strong> የደም መፈራረስ፣ የጉበት ኢንዛይሞች መጨመር እና የፕሌትሌት (Platelet) መቀነስ ምልክቶች ይታያሉ።</li>
+    </ul>
+
+    <h2>3. የምርመራ ሂደቶች</h2>
+    <p>የዓይን ቢጫ መሆን ምልክት የታየበት ነፍሰ ጡር ሴት የሚከተሉት ምርመራዎች ያስፈልጓታል፦</p>
+    <ul>
+        <li>የጉበት ተግባር ምርመራ (LFTs)</li>
+        <li>የደም መርጋት ምርመራ (Coagulation Profile - PT/INR)</li>
+        <li>የደም ምርመራ (FBC)</li>
+        <li>አልትራሳውንድ (Ultrasound)</li>
+    </ul>
+
+    <h2>4. አጠቃላይ የሕክምና መርሆዎች</h2>
+    <ul>
+        <li>ባለሙያዎች ጥምረት (Obstetrician እና Hepatologist)</li>
+        <li>የህፃኑን ደህንነት መከታተል</li>
+        <li>ለከባድ ችግሮች መፍትሄው ህፃኑን በሰዓቱ መውለድ ነው።</li>
+    </ul>
+
+    <div class="warning">
+        <strong>ማሳሰቢያ፡</strong> በእርግዝና ወቅት የዓይን ቢጫ መሆን እንደ ተራ ነገር አይታይም። ለእናቲቱ እና ለህፃኑ ከፍተኛ አደጋ አለው። ይህ ምልክት የታየበት ሰው ወዲያውኑ ወደ ጤና ተቋም መሄድ ይኖርበታል።
+    </div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <title>በእርግዝና ወቅት የሚከሰት የጃንዲስ (Jaundice) አያያዝ</title>
+    <style>
+        body { font-family: 'Nyala', 'Ethiopic', sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 20px auto; padding: 20px; background-color: #f4f7f6; }
+        h1 { color: #2c3e50; text-align: center; border-bottom: 3px solid #27ae60; padding-bottom: 10px; }
+        h2 { color: #27ae60; border-left: 5px solid #27ae60; padding-left: 10px; margin-top: 30px; }
+        section { background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        ul { margin-right: 20px; }
+        li { margin-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: right; }
+        th { background-color: #f8f9f9; color: #2c3e50; }
+    </style>
+</head>
+<body>
+
+    
+
+    <section>
+        <h2>5. ክሊኒካዊ ገጽታ (Clinical Presentation)</h2>
+        <ul>
+            <li>የዓይን እና የቆዳ ቢጫ መሆን።</li>
+            <li>የቆዳ ማሳከክ (በተለይ በእጅ እና በእግር መዳፍ ላይ)።</li>
+            <li>የሽንት ቀለም መቀየር (እንደ ሻይ መጥቆር)።</li>
+            <li>ማቅለሽለሽ፣ ማስታወክ እና የሆድ ህመም።</li>
+            <li>ድካም እና የምግብ ፍላጎት መቀነስ።</li>
+            <li><strong>አደገኛ ምልክቶች:</strong> ግራ መጋባት፣ ደም መፍሰስ እና የደም ግፊት መጨመር።</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>6. የአደጋ ተጋላጭነት ሁኔታዎች (Risk Factors)</h2>
+        <ul>
+            <li>የመጀመሪያ እርግዝና (ለተወሰኑ የጉበት ችግሮች)።</li>
+            <li>የቤተሰብ ወይም የራሱ ታሪክ (ቀድሞ የጉበት ችግር የነበረው)።</li>
+            <li>መንታ ወይም ከዚያ በላይ ፅንስ መሸከም (Multiple pregnancies)።</li>
+            <li>ቀደም ሲል የነበሩ የጤና እክሎች እንደ የሐሞት ጠጠር ወይም የቫይረስ ሄፐታይተስ።</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>7. የመለያ ምርመራዎች (Differential Diagnosis)</h2>
+        <table>
+            <tr>
+                <th>የምርመራ ዓይነት</th>
+                <th>ምሳሌዎች</th>
+            </tr>
+            <tr>
+                <td>በእርግዝና ብቻ የሚከሰቱ</td>
+                <td>ICP, AFLP, HELLP Syndrome, Hyperemesis Gravidarum</td>
+            </tr>
+            <tr>
+                <td>ከእርግዝና ጋር ተያይዘው የሚመጡ</td>
+                <td>Viral Hepatitis, Cholelithiasis (የሐሞት ጠጠር)</td>
+            </tr>
+        </ul>
+    </section>
+
+    <section>
+        <h2>8. የህክምና አያያዝ (Medical Management)</h2>
+        <ul>
+            <li><strong>መሰረታዊ ምርመራ:</strong> LFTs, Coagulation profile, CBC, እና Abdominal Ultrasound።</li>
+            <li><strong>ደጋፊ ሕክምና:</strong> የሰውነት ፈሳሽ ሚዛንን መጠበቅ (IV fluids) እና ለማሳከክ የሚሆኑ መድኃኒቶች (UDCA)።</li>
+            <li><strong>የፅንስ ደህንነት:</strong> የፅንሱን የልብ ምት እና እድገት በቅርበት መከታተል።</li>
+            <li><strong>ወሳኝ ሕክምና:</strong> ለከባድ ሁኔታዎች (እንደ AFLP) <strong>ፅንሱን በጊዜው መውለድ (Delivery)</strong> ብቸኛው መፍትሄ ነው።</li>
+            <li><strong>ባለሙያዎች ጥምረት:</strong> በጽንስና ማህፀን እና በውስጥ ደዌ (ጉበት) ባለሙያዎች መመራት አለበት።</li>
+        </ul>
+    </section>
+
+</body>
+</html>
